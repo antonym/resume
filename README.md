@@ -1,5 +1,5 @@
 ## My Resume
 
-[antony.mes.ser.li](http://antony.mes.ser.li)
+[antonymes.ser.li](http://antonymes.ser.li)
 
 Written in Markdown and generated using MkDocs
