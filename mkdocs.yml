@@ -1,4 +1,6 @@
-site_name: Antony Messerli
+site_name: Antony Messerli's Resume
+site_description: The resume of Antony Messerli
+site_author: Antony Messerli
 docs_dir: resume
 google_analytics: ['UA-68807-9', 'antony.mes.ser.li']
 pages:
