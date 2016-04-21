@@ -6,4 +6,4 @@
 * Github: [antonym](http://github.com/antonym)
 * IRC: antonym on irc.freenode.net
 * LinkedIn: [https://www.linkedin.com/in/antonym](https://www.linkedin.com/in/antonym)
-* Twitter: [ajmesserli](http://www.twitter.com/ajmesserli)
+* Twitter: [@ntonym](http://www.twitter.com/@ntonym)
