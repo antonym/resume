@@ -1,0 +1,32 @@
+name: release
+
+on:
+  push:
+    branches:
+      - master
+
+name: Build and Deploy
+on: [push]
+env:
+  DISCORD_HOOK_URL: ${{ secrets.DISCORD_HOOK_URL }}
+  GITHUB_SHA: ${{ github.sha }}
+  HUGO_VERSION: 0.86.0
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 🛎️
+        uses: actions/checkout@v2
+
+      - name: Install and Build 🔧 
+        run: |
+          wget https://github.com/gohugoio/hugo/releases/download/v${{ env.HUGO_VERSION }}/hugo_${{ env.HUGO_VERSION }}_Linux-64bit.deb
+          sudo dpkg -i hugo_${{ env.HUGO_VERSION }}_Linux-64bit.deb
+          git clone https://github.com/cowboysmall-tools/hugo-devresume-theme.git ./themes/hugo-devresume-theme
+          hugo
+
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@4.1.4
+        with:
+          branch: gh-pages # The branch the action should deploy to.
+          folder: public # The folder the action should deploy.

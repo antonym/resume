@@ -1,0 +1,275 @@
+# Page settings
+
+baseURL = "https://antony.mes.ser.li/"
+languageCode = "en"
+title = ""
+theme = "hugo-devresume-theme"
+googleAnalytics = "UA-68807-18"
+
+[params]
+    author = "CowboySmall"
+    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+    primaryColor = "#288db5"
+    textPrimaryColor = "#292929"
+
+    [params.profile]
+        enable = true
+        name = "Antony Messerli"
+        tagline = "Principal Engineer"
+        avatar = "avatar.png"
+
+    [params.contact]
+        enable = true
+        location = "San Antonio, Texas"
+        [[params.contact.list]]
+        icon = "fas fa-envelope-square"
+        url = "mailto:antony@mes.ser.li"
+        text = "antony@mes.ser.li"
+        [[params.contact.list]]
+        icon = "fas fa-globe"
+        url = "https://reversengineered.com"
+        text = "Personal Blog"
+        [[params.contact.list]]
+        icon = "fas fa-laptop"
+        url = "https://netboot.xyz"
+        text = "netboot.xyz"
+
+    [params.skills]
+        enable = true
+
+        [[params.skills.list]]
+        title = "Technical"
+        [[params.skills.list.items]]
+        details = "Systems Provisioning and Deployment (iPXE)"
+        [[params.skills.list.items]]
+        details = "CI/CD"
+        [[params.skills.list.items]]
+        details = "Linux and Windows Server"
+        [[params.skills.list.items]]
+        details = "Ansible and Terraform"
+        [[params.skills.list.items]]
+        details = "Cloud Architecture (GCE, AWS, OpenStack)"
+        [[params.skills.list.items]]
+        details = "KVM, VMware, Xen"
+        [[params.skills.list.items]]
+        details = "Server Hardware (Dell, HPE, OCP)"
+        [[params.skills.list.items]]
+        details = "Prototyping, R&D, and Implementation"
+        [[params.skills.list.items]]
+        details = "Engineering Management"
+
+        [[params.skills.list]]
+        title = "Professional"
+        [[params.skills.list.items]]
+        details = "Quick learner"
+        [[params.skills.list.items]]
+        details = "Strong problem solver"
+        [[params.skills.list.items]]
+        details = "Good time management"
+        [[params.skills.list.items]]
+        details = "Effective communication"
+
+    [params.languages]
+        enable = true
+
+        [[params.languages.list]]
+        name = "English"
+        level = "Native"
+
+    [params.interests]
+        enable = true
+
+        [[params.interests.list]]
+        name = "Biking"
+        [[params.interests.list]]
+        name = "Photography"
+        [[params.interests.list]]
+        name = "Travelling"
+
+    [params.summary]
+        enable = true
+        text = "Experienced Principal Engineer with almost 20 years of experience in Hosting Industry, automating the infrastructure layer from physical hardware to virtual infrastructure. Excellent reputation for solving complex problems and developing automation. Highly effective at working with teams of designers and builders to accomplish projects on-time. Quick to learn and adapt to new technologies and have developed, implemented, and operated large deployments at scale. (50,000+ physical servers running 250,000+ virtual machines)."
+
+    [params.experience]
+        enable = true
+        [[params.experience.list]]
+        title = "Manager and Principal Engineer, Infrastructure Engineering"
+        dates = "2019 - Present"
+        company = "Rackspace Technology"
+        [[params.experience.list.items]]
+        details = "Managed the Infrastructure Engineering team responsible for development, design, engineering, and lifecycle of all server platforms and hardware components that were deployed into Rackspace Technology facilities:"
+        [[params.experience.list.items]]
+        details = "Worked with external hardware vendors to evaluate and validate new server technologies"
+        [[params.experience.list.items]]
+        details = "Conducted research to test and analyze feasibility, design, operation and performance of server platforms and components."
+        [[params.experience.list.items]]
+        details = "Collaborated across multiple departments to ensure smooth deployment of new products"
+        [[params.experience.list.items]]
+        details = "Evaluated various bare metal automation software as options to update existing products (MAAS, OpenStack Ironic)"
+        [[params.experience.list.items]]
+        details = "Identified solutions to reduce spending and improve TCO on hardware platforms"
+        [[params.experience.list.items]]
+        details = "Developed tooling to automatically update firmware and benchmark platforms weekly with Phoronix Test Suite to identify differences in performance throughout the lifecycle of a platform"
+        [[params.experience.list.items]]
+        details = "Set goals with team members and ensured they were met by conducting performance reviews"
+
+        [[params.experience.list]]
+        title = "Principal Engineer, Private Cloud"
+        dates = "2016 - 2019"
+        company = "Rackspace Technology"
+        [[params.experience.list.items]]
+        details = "Member of engineering team responsible for development of Rackspace's private cloud distribution of OpenStack, which is deployed and maintained in production environments"
+        [[params.experience.list.items]]
+        details = "Implemented CI/CD automation and testing for OpenStack deployments and upgrades"
+        [[params.experience.list.items]]
+        details = "Conducted architectural reviews and built proof of concept ideas for product"
+        [[params.experience.list.items]]
+        details = "Contributed to various open-source projects including OpenStack and OpenStack-Ansible tooling for feature development and bug fixes"
+        [[params.experience.list.items]]
+        details = "Developed tools to automate upgrades of customer environments of OpenStack so that production environments could be upgraded by leaping over multiple versions or incrementally updating"
+        [[params.experience.list.items]]
+        details = "Wrote Ansible automation to deploy Red Hat OpenStack Platform (OSP) 13 for testing and deployment in production environments"
+
+        [[params.experience.list]]
+        title = "Principal Engineer, Public Cloud"
+        dates = "2013 - 2016"
+        company = "Rackspace Technology"
+        [[params.experience.list.items]]
+        details = "Involved in strategic initiatives, research and development, and operational decisions of Rackspace's public cloud compute product"
+        [[params.experience.list.items]]
+        details = "Served as leader in Technical Career Track (TCT) program. TCT is similar to fellowship programs found at other technical companies. Worked with other Principal Architects and Engineers across company to discuss business challenges and technical problems."
+        [[params.experience.list.items]]
+        details = "Built a proof of concept version of public cloud based on KVM to investigate moving away from Xen"
+        [[params.experience.list.items]]
+        details = "Developed live in-memory boot OS distribution for rapid deployment and upgrading of cloud based hypervisors using bittorrent to eliminate need for OS installations"
+        [[params.experience.list.items]]
+        details = "Built datacenter provisioning system utilizing iPXE for lifecycle management of servers, including OS installation, live booting, firmware provisioning, and RAID management to manage entire hypervisor fleet"
+        [[params.experience.list.items]]
+        details = "Developed and launched Performance Cloud Servers based on Intel Processors and highly tuned Xen Hypervisors"
+        [[params.experience.list.items]]
+        details = "Created and launched iPXE based OS boot loader for Cloud Servers and Bare Metal for customers to use (boot.rackspace.com)"
+
+        [[params.experience.list]]
+        title = "Senior Systems Engineer, Cloud Servers/OpenStack"
+        dates = "2012 - 2013"
+        company = "Rackspace Technology"
+        [[params.experience.list.items]]
+        details = "Focused on rapid prototyping, design and implementation of new features for Cloud Servers NextGen"
+        [[params.experience.list.items]]
+        details = "Automated Hypervisor Deployments of XenServer for Cloud Servers"
+        [[params.experience.list.items]]
+        details = "Developed, tested, and validated all new hardware platforms which included Dell, HP, and Open Compute Project (OCP)"
+        [[params.experience.list.items]]
+        details = "Extensive work with OpenStack and open-source community"
+        [[params.experience.list.items]]
+        details = "Deployment and Continuous Delivery using Puppet, Jenkins, and other custom automation tools"
+
+        [[params.experience.list]]
+        title = "Systems Engineering Manager"
+        dates = "2011 - 2012"
+        company = "Rackspace Technology"
+        [[params.experience.list.items]]
+        details = "Managed the team responsible for Systems Engineering and Integration for Open Cloud Compute product at Rackspace to build a large scale Infrastructure as a Service platform"
+        [[params.experience.list.items]]
+        details = "Worked closely with Compute Development and Operations teams to ensure that OpenStack software would meet customers expectations for stability and scalability"
+        [[params.experience.list.items]]
+        details = "Designed and built out Rackspace's internal clusters of Nova (OpenStack running on OpenStack) in preparation for production deployments utilizing XenServer"
+        [[params.experience.list.items]]
+        details = "Extensive work with OpenStack and open-source community"
+        [[params.experience.list.items]]
+        details = "Successfully launched Next Generation of Cloud Servers in multiple regions worldwide on the project's specified timelines"
+
+        [[params.experience.list]]
+        title = "Senior Systems Engineer, Cloud Servers/Slicehost"
+        dates = "2008 - 2011"
+        company = "Rackspace Technology"
+        [[params.experience.list.items]]
+        details = "Responsible for integrating Slicehost technology into Rackspace systems"
+        [[params.experience.list.items]]
+        details = "Developed hardware platform and worked side by side developers to get everything integrated for launch of Rackspace Cloud Servers"
+        [[params.experience.list.items]]
+        details = "Designed and architected Windows Cloud Servers offering along with team of Developers"
+        [[params.experience.list.items]]
+        details = "Focused on Research and Development for Cloud Servers/Slicehost brands"
+        [[params.experience.list.items]]
+        details = "Extensive work with open-source Xen, Citrix XenServer, and OS installers for hypervisor and guest image development for all flavors of Linux and Windows"
+        [[params.experience.list.items]]
+        details = "Responsible for Escalations for Cloud Servers product"
+
+        [[params.experience.list]]
+        title = "Systems Architect (Rack Labs)"
+        dates = "2008"
+        company = "Rackspace Technology"
+        [[params.experience.list.items]]
+        details = "Moved over to Rack Labs, a group inside Rackspace focusing on new ideas and products, to focus on designing and developing Rackspace's Infrastructure as a Service product (Cloud Servers)."
+        [[params.experience.list.items]]
+        details = "Worked on designing the offering and worked with a team of developers to build a prototype. The acquisition of Slicehost, a VPS provider at the time, accelerated this project and laid a lot of the foundation for what would later become OpenStack."
+
+
+        [[params.experience.list]]
+        title = "Product Engineer Server Hardware and Virtualization"
+        dates = "2003-2008"
+        company = "Rackspace Technology"
+        [[params.experience.list.items]]
+        details = "Responsible for Research and Development of all server hardware and virtualization platforms at Rackspace"
+        [[params.experience.list.items]]
+        details = "Developed network based automated firmware updater tooling for updating datacenter server builds"
+        [[params.experience.list.items]]
+        details = "Developed, tested and integrated all server offerings including Rackspace white label brand, HP, and Dell Servers. Responsible for integration and testing with automated Windows and Linux installers utilized by datacenter. Worked closely with automated Windows and Linux installer teams"
+        [[params.experience.list.items]]
+        details = "Developed, tested and integrated Rackspace's first VMware based Virtualization offering"
+        [[params.experience.list.items]]
+        details = "Received hardware issue escalations"
+        [[params.experience.list.items]]
+        details = "Worked with vendor's engineering groups on issues and feature requests"
+
+        [[params.experience.list]]
+        title = "Datacenter Operations Technician"
+        dates = "2002-2003"
+        company = "Rackspace Technology"
+        [[params.experience.list.items]]
+        details = "Responsible for building, maintaining, repairing, and diagnosing over 3000 servers in a single datacenter. Worked with standard server components as well as branded servers. Worked with many server OS types including Windows, Linux, and Sun Solaris."
+
+
+    [params.projects]
+        enable = true
+        [[params.projects.list]]
+        title = "netboot.xyz"
+        meta = "Open Source"
+        tagline = "An open source internet boot loader that utilizes iPXE for network booting into Operating Systems or Utilities over the internet. Provides different forms of media for booting installers from a single menu for worldwide use. Has been utilized by several companies as part of their product offerings and been featured on Hacker News several times."
+
+    [params.information]
+        enable = true
+        [[params.information.list]]
+        title = "Talks"
+        [[params.information.list.items]]
+        details = "Stateless Hypervisors at Scale (OpenStack Summit, April 2016)"
+        [[params.information.list.items]]
+        details = "Using IaC with VCD to Deploy Workloads Across Clouds (Dell Technology World 2021)"
+        [[params.information.list]]
+        title = "Patents"
+        [[params.information.list.items]]
+        details = "Multi-level cloud computing system (us 9,563,480)"
+        [[params.information.list.items]]
+        details = "Method and System for Transferring a Virtual Machine (us 9,552,215)"
+        [[params.information.list.items]]
+        details = "Method and System for Utilizing Spare Cloud Resources (us 9,471,384)"
+        [[params.information.list.items]]
+        details = "Wake-on-LAN and Instantiate-on-LAN in a Cloud Computing System (us 9,268,586)"
+        [[params.information.list.items]]
+        details = "Pluggable Allocation in a Cloud Computing System (us 9,141,410)"
+
+    [params.social]
+        enable = true
+        [[params.social.list]]
+        icon = "fab fa-github-square"
+        url = "//github.com/antonym"
+        title = "antonym"
+        [[params.social.list]]
+        icon = "fab fa-linkedin"
+        url = "//linkedin.com/in/antonym"
+        title = "antonym"
+        [[params.social.list]]
+        icon = "fab fa-twitter-square"
+        url = "//twitter.com/@ntonym"
+        title = "@ntonym"
