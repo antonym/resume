@@ -4,15 +4,10 @@ on:
   push:
     branches:
       - master
-
-name: Build and Deploy
-on: [push]
-env:
-  DISCORD_HOOK_URL: ${{ secrets.DISCORD_HOOK_URL }}
-  GITHUB_SHA: ${{ github.sha }}
-  HUGO_VERSION: 0.86.0
 jobs:
   build-and-deploy:
+    env:
+      HUGO_VERSION: 0.86.0
     runs-on: ubuntu-latest
     steps:
       - name: Checkout 🛎️
