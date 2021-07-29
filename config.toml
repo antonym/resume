@@ -29,11 +29,7 @@ googleAnalytics = "UA-68807-18"
         icon = "fas fa-globe"
         url = "https://reversengineered.com"
         text = "Personal Blog"
-        [[params.contact.list]]
-        icon = "fas fa-laptop"
-        url = "https://netboot.xyz"
-        text = "netboot.xyz"
-
+        
     [params.skills]
         enable = true
 
