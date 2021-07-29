@@ -7,8 +7,8 @@ theme = "hugo-devresume-theme"
 googleAnalytics = "UA-68807-18"
 
 [params]
-    author = "CowboySmall"
-    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+    author = "Antony Messerli"
+    description = "DevResume"
     primaryColor = "#288db5"
     textPrimaryColor = "#292929"
 
