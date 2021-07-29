@@ -15,8 +15,8 @@ jobs:
 
       - name: Install and Build 🔧 
         run: |
-          wget https://github.com/gohugoio/hugo/releases/download/v${{ env.HUGO_VERSION }}/hugo_${{ env.HUGO_VERSION }}_Linux-64bit.deb
-          sudo dpkg -i hugo_${{ env.HUGO_VERSION }}_Linux-64bit.deb
+          wget https://github.com/gohugoio/hugo/releases/download/v${{ env.HUGO_VERSION }}/hugo_extended_${{ env.HUGO_VERSION }}_Linux-64bit.deb
+          sudo dpkg -i hugo_extended_${{ env.HUGO_VERSION }}_Linux-64bit.deb
           git clone https://github.com/cowboysmall-tools/hugo-devresume-theme.git ./themes/hugo-devresume-theme
           hugo
 
