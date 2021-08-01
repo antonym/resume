@@ -226,7 +226,6 @@ googleAnalytics = "UA-68807-18"
         [[params.experience.list.items]]
         details = "Responsible for building, maintaining, repairing, and diagnosing over 3000 servers in a single datacenter. Worked with standard server components as well as branded servers. Worked with many server OS types including Windows, Linux, and Sun Solaris."
 
-
     [params.projects]
         enable = true
         [[params.projects.list]]
@@ -254,6 +253,10 @@ googleAnalytics = "UA-68807-18"
         details = "Wake-on-LAN and Instantiate-on-LAN in a Cloud Computing System (us 9,268,586)"
         [[params.information.list.items]]
         details = "Pluggable Allocation in a Cloud Computing System (us 9,141,410)"
+        [[params.information.list]]
+        title = "Certifications"
+        [[params.information.list.items]]
+        details = "Amazon Web Services Cloud Practitioner - Aug 2021"
 
     [params.social]
         enable = true
