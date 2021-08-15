@@ -84,7 +84,7 @@ googleAnalytics = "UA-68807-18"
 
     [params.summary]
         enable = true
-        text = "Experienced Principal Engineer with almost 20 years of experience in Hosting Industry, automating the infrastructure layer from physical hardware to virtual infrastructure. Excellent reputation for solving complex problems and developing automation. Highly effective at working with teams of designers and builders to accomplish projects on-time. Quick to learn and adapt to new technologies and have developed, implemented, and operated large deployments at scale. (50,000+ physical servers running 250,000+ virtual machines)."
+        text = "Experienced Principal Engineer proficient in physical hardware and virtual infrastructure automation. Excellent reputation for solving complex problems and developing automation. Highly effective at working with teams of designers and builders to accomplish projects on time. Quick to learn and adapt to new technologies and have developed, implemented, and operated large Infrastructure as a Service deployments at scale. (50,000+ physical servers running 250,000+ virtual machines)"
 
     [params.experience]
         enable = true
@@ -97,7 +97,7 @@ googleAnalytics = "UA-68807-18"
         [[params.experience.list.items]]
         details = "Worked with external hardware vendors to evaluate and validate new server technologies"
         [[params.experience.list.items]]
-        details = "Conducted research to test and analyze feasibility, design, operation and performance of server platforms and components."
+        details = "Conducted research to test and analyze feasibility, design, operation, and performance of server platforms and components"
         [[params.experience.list.items]]
         details = "Collaborated across multiple departments to ensure smooth deployment of new products"
         [[params.experience.list.items]]
@@ -133,11 +133,11 @@ googleAnalytics = "UA-68807-18"
         [[params.experience.list.items]]
         details = "Involved in strategic initiatives, research and development, and operational decisions of Rackspace's public cloud compute product"
         [[params.experience.list.items]]
-        details = "Served as leader in Technical Career Track (TCT) program. TCT is similar to fellowship programs found at other technical companies. Worked with other Principal Architects and Engineers across company to discuss business challenges and technical problems."
+        details = "Served as leader in Technical Career Track (TCT) program. TCT is similar to fellowship programs found at other technology companies. Worked with other Principal Architects and Engineers across company to discuss business challenges and technical problems."
         [[params.experience.list.items]]
-        details = "Built a proof of concept version of public cloud based on KVM to investigate moving away from Xen"
+        details = "Built a proof-of-concept version of public cloud based on KVM to investigate moving away from Xen"
         [[params.experience.list.items]]
-        details = "Developed live in-memory boot OS distribution for rapid deployment and upgrading of cloud based hypervisors using bittorrent to eliminate need for OS installations"
+        details = "Developed live in-memory boot OS distribution for rapid deployment and upgrading of cloud-based hypervisors using BitTorrent to eliminate need for OS installations"
         [[params.experience.list.items]]
         details = "Built datacenter provisioning system utilizing iPXE for lifecycle management of servers, including OS installation, live booting, firmware provisioning, and RAID management to manage entire hypervisor fleet"
         [[params.experience.list.items]]
@@ -150,7 +150,7 @@ googleAnalytics = "UA-68807-18"
         dates = "2012 - 2013"
         company = "Rackspace Technology"
         [[params.experience.list.items]]
-        details = "Focused on rapid prototyping, design and implementation of new features for Cloud Servers NextGen"
+        details = "Focused on rapid prototyping, design, and implementation of new features for Cloud Servers NextGen"
         [[params.experience.list.items]]
         details = "Automated Hypervisor Deployments of XenServer for Cloud Servers"
         [[params.experience.list.items]]
@@ -165,9 +165,9 @@ googleAnalytics = "UA-68807-18"
         dates = "2011 - 2012"
         company = "Rackspace Technology"
         [[params.experience.list.items]]
-        details = "Managed the team responsible for Systems Engineering and Integration for Open Cloud Compute product at Rackspace to build a large scale Infrastructure as a Service platform"
+        details = "Managed the team responsible for Systems Engineering and Integration for Open Cloud Compute product at Rackspace to build a large-scale Infrastructure as a Service platform"
         [[params.experience.list.items]]
-        details = "Worked closely with Compute Development and Operations teams to ensure that OpenStack software would meet customers expectations for stability and scalability"
+        details = "Worked closely with Compute Development and Operations teams to ensure that OpenStack software would meet customer's expectations for stability and scalability"
         [[params.experience.list.items]]
         details = "Designed and built out Rackspace's internal clusters of Nova (OpenStack running on OpenStack) in preparation for production deployments utilizing XenServer"
         [[params.experience.list.items]]
@@ -180,7 +180,7 @@ googleAnalytics = "UA-68807-18"
         dates = "2008 - 2011"
         company = "Rackspace Technology"
         [[params.experience.list.items]]
-        details = "Responsible for integrating Slicehost technology into Rackspace systems"
+        details = "Responsible for integrating Slicehost technology into Rackspace systems upon acquisition of Slicehost"
         [[params.experience.list.items]]
         details = "Developed hardware platform and worked side by side developers to get everything integrated for launch of Rackspace Cloud Servers"
         [[params.experience.list.items]]
@@ -188,7 +188,7 @@ googleAnalytics = "UA-68807-18"
         [[params.experience.list.items]]
         details = "Focused on Research and Development for Cloud Servers/Slicehost brands"
         [[params.experience.list.items]]
-        details = "Extensive work with open-source Xen, Citrix XenServer, and OS installers for hypervisor and guest image development for all flavors of Linux and Windows"
+        details = "Performed extensive work with open-source Xen, Citrix XenServer, and OS installers for hypervisor and guest image development for all flavors of Linux and Windows"
         [[params.experience.list.items]]
         details = "Responsible for Escalations for Cloud Servers product"
 
@@ -209,7 +209,7 @@ googleAnalytics = "UA-68807-18"
         [[params.experience.list.items]]
         details = "Responsible for Research and Development of all server hardware and virtualization platforms at Rackspace"
         [[params.experience.list.items]]
-        details = "Developed network based automated firmware updater tooling for updating datacenter server builds"
+        details = "Developed network-based automated firmware updater tooling for updating datacenter server builds"
         [[params.experience.list.items]]
         details = "Developed, tested and integrated all server offerings including Rackspace white label brand, HP, and Dell Servers. Responsible for integration and testing with automated Windows and Linux installers utilized by datacenter. Worked closely with automated Windows and Linux installer teams"
         [[params.experience.list.items]]
@@ -231,7 +231,7 @@ googleAnalytics = "UA-68807-18"
         [[params.projects.list]]
         title = "netboot.xyz"
         meta = "Open Source"
-        tagline = "An open source internet boot loader that utilizes iPXE for network booting into Operating Systems or Utilities over the internet. Provides different forms of media for booting installers from a single menu for worldwide use. Has been utilized by several companies as part of their product offerings and been featured on Hacker News several times."
+        tagline = "An open-source internet boot loader that utilizes iPXE for network booting into Operating Systems or Utilities over the internet. Provides different forms of media for booting installers from a single menu for worldwide use. Has been utilized by several companies as part of their product offerings and been featured on Hacker News several times."
 
     [params.information]
         enable = true
@@ -256,7 +256,9 @@ googleAnalytics = "UA-68807-18"
         [[params.information.list]]
         title = "Certifications"
         [[params.information.list.items]]
-        details = "Amazon Web Services Cloud Practitioner - Aug 2021"
+        details = "Amazon Web Services Certified Solutions Architect - Associate - Aug 2021"
+        [[params.information.list.items]]
+        details = "Amazon Web Services Certified Cloud Practitioner - Aug 2021"
 
     [params.social]
         enable = true
