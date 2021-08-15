@@ -2,7 +2,7 @@
 
 baseURL = "https://antony.mes.ser.li/"
 languageCode = "en"
-title = ""
+title = "Antony Messerli's Resume"
 theme = "hugo-devresume-theme"
 googleAnalytics = "UA-68807-18"
 
