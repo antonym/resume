@@ -89,8 +89,13 @@ googleAnalytics = "UA-68807-18"
     [params.experience]
         enable = true
         [[params.experience.list]]
+        title = "Principal Engineer, Platform Engineering"
+        dates = "2021 - Present"
+        company = "H-E-B"
+
+        [[params.experience.list]]
         title = "Manager and Principal Engineer, Infrastructure Engineering"
-        dates = "2019 - Present"
+        dates = "2019 - 2021"
         company = "Rackspace Technology"
         [[params.experience.list.items]]
         details = "Managed the Infrastructure Engineering team responsible for development, design, engineering, and lifecycle of all server platforms and hardware components that were deployed into Rackspace Technology facilities:"
