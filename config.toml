@@ -44,7 +44,7 @@ googleAnalytics = "UA-68807-18"
         [[params.skills.list.items]]
         details = "Ansible and Terraform"
         [[params.skills.list.items]]
-        details = "Cloud Architecture (GCE, AWS, OpenStack)"
+        details = "Cloud Architecture (GCP, AWS, OpenStack)"
         [[params.skills.list.items]]
         details = "KVM, VMware, Xen"
         [[params.skills.list.items]]
